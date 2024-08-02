@@ -1,10 +1,18 @@
 #!/usr/bin/python3
-""" Place Module for HBNB project """
+"""
+This module defines the Place class, which inherits from BaseModel.
+
+"""
+
 from models.base_model import BaseModel
 
 
 class Place(BaseModel):
-    """ A place to stay """
+    """
+    Place class for representing places in the AirBnB clone project.
+
+    """
+
     city_id = ""
     user_id = ""
     name = ""
