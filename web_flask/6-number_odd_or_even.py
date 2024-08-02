@@ -33,7 +33,7 @@ def python(text='is_cool'):
 @app.route('/number/<int:n>')
 def check_integer(n):
     """ Show only integers """
-    return (f"{n} is a number")
+    return f'{n} is a number'
 
 
 @app.route('/number_template/<int:n>')
