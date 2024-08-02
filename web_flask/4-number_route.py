@@ -24,7 +24,7 @@ def c(text):
     return f'C {text.replace("_", " ")}'
 
 
-@app.route("/python")
+@app.route("/python/")
 @app.route("/python/<text>")
 def python(text="is cool"):
     """ diplay text"""
