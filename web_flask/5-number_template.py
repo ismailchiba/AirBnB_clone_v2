@@ -28,13 +28,13 @@ def c(text):
 @app.route("/python/<text>")
 def python(text="is cool"):
     """ diplay text"""
-    return f"Python {text.replace("_"," ")}"
+    return f'Python {text.replace("_"," ")}'
 
 
 @app.route('/number/<int:n>')
 def num(n):
     """ diplay integer """
-    return f"{n} is a number"
+    return f'{n} is a number'
 
 
 @app.route('/number_template/<int:n>')
