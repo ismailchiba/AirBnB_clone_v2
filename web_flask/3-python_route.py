@@ -28,7 +28,7 @@ def c(text):
 @app.route("/python/<text>")
 def python(text="is cool"):
     """ diplay text"""
-    return f"Python {text.replace("_"," ")}"
+    return f'Python {text.replace("_"," ")}'
 
 
 if __name__ == "__main__":
